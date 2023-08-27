@@ -8,6 +8,9 @@ export default {
   SET_JOBS(state, data) {
     state.jobs = data;
   },
+  SET_LIST(state, data) {
+    state.list = data;
+  },
   SET_ITEM(state, data) {
     state.item = data;
   },

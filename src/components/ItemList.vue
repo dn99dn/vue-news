@@ -43,15 +43,17 @@
 export default {
   computed: {
     listItems() {
-      let name = this.$route.path;
-      if (name === '/news') {
-        return this.$store.state.news;
-      } else if (name === '/ask') {
-        return this.$store.state.ask;
-      } else if (name === '/jobs') {
-        return this.$store.state.jobs;
-      }
-      return [];
+      // let name = this.$route.path;
+      // if (name === '/news') {
+      //   return this.$store.state.news;
+      // } else if (name === '/ask') {
+      //   return this.$store.state.ask;
+      // } else if (name === '/jobs') {
+      //   return this.$store.state.jobs;
+      // }
+      // return [];
+
+      return this.$store.state.list;
     }
   }
 }

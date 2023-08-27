@@ -11,7 +11,7 @@
 <script>
 import bus from './utils/bus.js';
 import Spinner from './components/Spinner.vue';
-import ToolBar from './components/ToolBar.vue';
+import ToolBar from './components/ToolBar';
 
 export default {
   name: 'App',

@@ -11,6 +11,7 @@ export default new Vuex.Store({
     news: [],
     ask: [],
     jobs: [],
+    list: [],
     item: {},
     user: {},
   },
@@ -23,6 +24,9 @@ export default new Vuex.Store({
     },
     fetchedJobs(state) {
       return state.jobs;
+    },
+    fetchedList(state) {
+      return state.list;
     },
     fetchedItem(state) {
       return state.item;
