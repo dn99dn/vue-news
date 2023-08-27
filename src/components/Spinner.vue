@@ -19,7 +19,7 @@ export default {
   },
   watch: {
     loading() {
-      console.log('loading : ' + this.loading);
+      // console.log('loading : ' + this.loading);
     }
   },
 }
